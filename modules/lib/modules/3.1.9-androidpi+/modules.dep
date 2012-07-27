@@ -1,0 +1,116 @@
+kernel/fs/nls/nls_cp737.ko:
+kernel/fs/nls/nls_cp775.ko:
+kernel/fs/nls/nls_cp850.ko:
+kernel/fs/nls/nls_cp852.ko:
+kernel/fs/nls/nls_cp855.ko:
+kernel/fs/nls/nls_cp857.ko:
+kernel/fs/nls/nls_cp860.ko:
+kernel/fs/nls/nls_cp861.ko:
+kernel/fs/nls/nls_cp862.ko:
+kernel/fs/nls/nls_cp863.ko:
+kernel/fs/nls/nls_cp864.ko:
+kernel/fs/nls/nls_cp865.ko:
+kernel/fs/nls/nls_cp866.ko:
+kernel/fs/nls/nls_cp869.ko:
+kernel/fs/nls/nls_cp874.ko:
+kernel/fs/nls/nls_cp932.ko:
+kernel/fs/nls/nls_euc-jp.ko:
+kernel/fs/nls/nls_cp936.ko:
+kernel/fs/nls/nls_cp949.ko:
+kernel/fs/nls/nls_cp950.ko:
+kernel/fs/nls/nls_cp1250.ko:
+kernel/fs/nls/nls_cp1251.ko:
+kernel/fs/nls/nls_iso8859-1.ko:
+kernel/fs/nls/nls_iso8859-2.ko:
+kernel/fs/nls/nls_iso8859-3.ko:
+kernel/fs/nls/nls_iso8859-4.ko:
+kernel/fs/nls/nls_iso8859-5.ko:
+kernel/fs/nls/nls_iso8859-6.ko:
+kernel/fs/nls/nls_iso8859-7.ko:
+kernel/fs/nls/nls_cp1255.ko:
+kernel/fs/nls/nls_iso8859-9.ko:
+kernel/fs/nls/nls_iso8859-13.ko:
+kernel/fs/nls/nls_iso8859-14.ko:
+kernel/fs/nls/nls_iso8859-15.ko:
+kernel/fs/nls/nls_koi8-r.ko:
+kernel/fs/nls/nls_koi8-u.ko:
+kernel/fs/nls/nls_koi8-ru.ko:
+kernel/fs/nls/nls_utf8.ko:
+kernel/fs/isofs/isofs.ko:
+kernel/fs/udf/udf.ko:
+kernel/crypto/seqiv.ko:
+kernel/crypto/xcbc.ko:
+kernel/crypto/md4.ko:
+kernel/crypto/sha256_generic.ko:
+kernel/crypto/sha512_generic.ko:
+kernel/crypto/wp512.ko:
+kernel/crypto/tgr192.ko:
+kernel/crypto/ecb.ko:
+kernel/crypto/aes_generic.ko:
+kernel/crypto/cast5.ko:
+kernel/crypto/arc4.ko:
+kernel/crypto/deflate.ko: kernel/lib/zlib_deflate/zlib_deflate.ko
+kernel/crypto/michael_mic.ko:
+kernel/crypto/authenc.ko:
+kernel/crypto/authencesn.ko:
+kernel/drivers/video/backlight/lcd.ko:
+kernel/drivers/video/backlight/backlight.ko:
+kernel/drivers/video/backlight/generic_bl.ko: kernel/drivers/video/backlight/backlight.ko
+kernel/drivers/block/pktcdvd.ko: kernel/drivers/cdrom/cdrom.ko
+kernel/drivers/block/nbd.ko:
+kernel/drivers/block/cryptoloop.ko:
+kernel/drivers/misc/eeprom/eeprom_93cx6.ko:
+kernel/drivers/misc/iwmc3200top/iwmc3200top.ko:
+kernel/drivers/scsi/sd_mod.ko:
+kernel/drivers/scsi/sr_mod.ko: kernel/drivers/cdrom/cdrom.ko
+kernel/drivers/scsi/scsi_wait_scan.ko:
+kernel/drivers/net/usb/catc.ko:
+kernel/drivers/net/usb/kaweth.ko:
+kernel/drivers/net/usb/pegasus.ko:
+kernel/drivers/net/usb/rtl8150.ko:
+kernel/drivers/net/usb/asix.ko:
+kernel/drivers/net/usb/cdc_ether.ko:
+kernel/drivers/net/usb/cdc_eem.ko:
+kernel/drivers/net/usb/dm9601.ko:
+kernel/drivers/net/usb/smsc75xx.ko:
+kernel/drivers/net/usb/gl620a.ko:
+kernel/drivers/net/usb/net1080.ko:
+kernel/drivers/net/usb/plusb.ko:
+kernel/drivers/net/usb/rndis_host.ko: kernel/drivers/net/usb/cdc_ether.ko
+kernel/drivers/net/usb/cdc_subset.ko:
+kernel/drivers/net/usb/mcs7830.ko:
+kernel/drivers/net/usb/int51x1.ko:
+kernel/drivers/net/usb/kalmia.ko:
+kernel/drivers/net/usb/ipheth.ko:
+kernel/drivers/net/usb/sierra_net.ko:
+kernel/drivers/net/usb/cx82310_eth.ko:
+kernel/drivers/net/usb/lg-vl600.ko: kernel/drivers/net/usb/cdc_ether.ko
+kernel/drivers/cdrom/cdrom.ko:
+kernel/drivers/input/misc/ad714x.ko:
+kernel/drivers/input/misc/adxl34x.ko:
+kernel/drivers/input/misc/ati_remote.ko:
+kernel/drivers/input/misc/ati_remote2.ko:
+kernel/drivers/input/misc/cm109.ko:
+kernel/drivers/input/misc/cma3000_d0x.ko:
+kernel/drivers/input/misc/keyspan_remote.ko:
+kernel/drivers/input/misc/powermate.ko:
+kernel/drivers/input/misc/rotary_encoder.ko:
+kernel/drivers/input/misc/uinput.ko:
+kernel/drivers/input/misc/yealink.ko:
+kernel/drivers/ssb/ssb.ko:
+kernel/sound/core/snd.ko:
+kernel/sound/core/snd-timer.ko: kernel/sound/core/snd.ko
+kernel/sound/core/snd-hrtimer.ko: kernel/sound/core/snd-timer.ko kernel/sound/core/snd.ko
+kernel/sound/core/snd-pcm.ko: kernel/sound/core/snd-page-alloc.ko kernel/sound/core/snd-timer.ko kernel/sound/core/snd.ko
+kernel/sound/core/snd-page-alloc.ko:
+kernel/sound/core/seq/snd-seq.ko: kernel/sound/core/seq/snd-seq-device.ko kernel/sound/core/snd-timer.ko kernel/sound/core/snd.ko
+kernel/sound/core/seq/snd-seq-device.ko: kernel/sound/core/snd.ko
+kernel/sound/core/seq/snd-seq-midi-event.ko: kernel/sound/core/seq/snd-seq.ko kernel/sound/core/seq/snd-seq-device.ko kernel/sound/core/snd-timer.ko kernel/sound/core/snd.ko
+kernel/sound/core/seq/oss/snd-seq-oss.ko: kernel/sound/core/seq/snd-seq-midi-event.ko kernel/sound/core/seq/snd-seq.ko kernel/sound/core/seq/snd-seq-device.ko kernel/sound/core/snd-timer.ko kernel/sound/core/snd.ko
+kernel/sound/drivers/snd-dummy.ko: kernel/sound/core/snd-pcm.ko kernel/sound/core/snd-page-alloc.ko kernel/sound/core/snd-timer.ko kernel/sound/core/snd.ko
+kernel/sound/drivers/snd-aloop.ko: kernel/sound/core/snd-pcm.ko kernel/sound/core/snd-page-alloc.ko kernel/sound/core/snd-timer.ko kernel/sound/core/snd.ko
+kernel/sound/arm/snd-bcm2835.ko: kernel/sound/core/snd-pcm.ko kernel/sound/core/snd-page-alloc.ko kernel/sound/core/snd-timer.ko kernel/sound/core/snd.ko
+kernel/net/core/pktgen.ko:
+kernel/net/wireless/lib80211.ko:
+kernel/net/key/af_key.ko:
+kernel/lib/zlib_deflate/zlib_deflate.ko:
